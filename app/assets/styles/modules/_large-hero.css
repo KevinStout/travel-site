@@ -10,7 +10,7 @@
 		text-align: center;
 	}
 
-	&__title{
+	&__title{		
 		font-weight: 300;
 		color: $mainBlue;
 		font-size: 4.8rem;
