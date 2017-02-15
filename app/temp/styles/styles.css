@@ -478,10 +478,13 @@ a{
 	color: #d59541
 }
 
-.large-hero{
-	border-bottom: 10px solid #2f5572;	
-	position: relative;
+.test{
+	
+}
 
+.large-hero{
+	border-bottom: 10px solid #2f5572;
+	position: relative;
 }
 
 .large-hero__image{
@@ -731,4 +734,13 @@ a{
   font-weight: 700;
 }
 
+.section-title{
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
 
+}
+
+.section-title strong{
+  font-weight: 500;
+}
