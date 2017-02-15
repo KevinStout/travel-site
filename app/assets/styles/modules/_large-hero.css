@@ -1,5 +1,9 @@
+.test{
+	
+}
+
 .large-hero{
-	border-bottom: 10px solid $mainBlue;	
+	border-bottom: 10px solid $mainBlue;
 	position: relative;
 
 	&__image{
@@ -15,7 +19,7 @@
 		text-align: center;
 	}
 
-	&__title{		
+	&__title{
 		font-weight: 300;
 		color: $mainBlue;
 		margin: 0;
@@ -48,9 +52,6 @@
 
 		@mixin atSmall{
 			font-size: 1.875rem;
-
 		}
 	}
-
 }
-
