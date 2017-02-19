@@ -1,6 +1,4 @@
-.test{
-	
-}
+
 
 .large-hero{
 	border-bottom: 10px solid $mainBlue;
@@ -11,12 +9,18 @@
 	}
 
 	&__text-content{
+		padding-top: 20px;
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
 		bottom: 0;
 		width: 100%;
 		text-align: center;
+
+		@mixin atMedium{
+			padding-top: 60px;
+		}
+
 	}
 
 	&__title{
