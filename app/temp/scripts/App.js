@@ -10316,6 +10316,7 @@ return jQuery;
 var $ = __webpack_require__(1);
 var Person = __webpack_require__(0);
 
+alert("test123");
 
 var john = new Person("john doe", "blue");
 var jane = new Person("jane smith", "green");
